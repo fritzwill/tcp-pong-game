@@ -12,7 +12,7 @@ g++ -std=c++11 -c -o netpong.o netpong.cpp
 g++ -o netpong -std=c++11 -lncurses -lpthread -lz netpong.o
 ```
 
-With the binaries now created we have to first run this on the host machine (DIFFICULTY = 'easy','medium', or :
+With the binaries now created we have to first run this on the host machine (DIFFICULTY = 'easy','medium', or 'hard':
 ```
 $ ./netpong --host [PORT NUMBER] [DIFFICULTY]
 ```
@@ -30,4 +30,4 @@ Waiting for challengers on port 4000
 ```
 $ ./netpong student02.cse.nd.edu 4000
 ```
-The pong game will then begin on both the host and challenger machine
+The pong game will then begin on both the Host and Challenger machine
